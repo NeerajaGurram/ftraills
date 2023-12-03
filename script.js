@@ -1,30 +1,32 @@
-// script.js
-
-const daysElement = document.getElementById('days');
-const hoursElement = document.getElementById('hours');
-const minutesElement = document.getElementById('minutes');
-const secondsElement = document.getElementById('seconds');
-
-function updateTimer() {
-    const futureDate = new Date("2023-12-07T09:00:00");
-    const currentDate = new Date();
-    const timeDifference = futureDate - currentDate;
-
-    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-    daysElement.textContent = formatTime(days);
-    hoursElement.textContent = formatTime(hours);
-    minutesElement.textContent = formatTime(minutes);
-    secondsElement.textContent = formatTime(seconds);
-}
-
-function formatTime(time) {
-    return time < 10 ? `0${time}` : time;
-}
-
-
-// Update the timer every second
-setInterval(updateTimer, 1000);
+document.addEventListener("DOMContentLoaded", function () {
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 09, 2023 00:00:00").getTime();
+  
+    // Update the countdown every 1 second
+    var x = setInterval(function () {
+      // Get the current date and time
+      var now = new Date().getTime();
+  
+      // Calculate the remaining time
+      var distance = countDownDate - now;
+  
+      // Calculate days, hours, minutes, and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  
+      // Display the countdown
+      document.getElementById("days").innerHTML = days + " d";
+      document.getElementById("hours").innerHTML = hours + " h";
+      document.getElementById("minutes").innerHTML = minutes + " m";
+      document.getElementById("seconds").innerHTML = seconds + " s";
+  
+      // If the countdown is over, display a message
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+  });
+  
