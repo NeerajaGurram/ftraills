@@ -23,7 +23,7 @@ body{
     position: fixed;
     font-family: 'Lucida Handwriting';
     /*background-color:rgb(48, 5, 70);*/
-    background-color: rgba(198, 131, 215, 0.8);
+    background-color: rgba(198, 131, 215, 1);
     border-radius: 10px;
     overflow: hidden;
     width: 99.2%;
