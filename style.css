@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'Lucida Calligraphy';
+    src: url();
+}
 body{
         background-image: url("https://marketplace.canva.com/EAFuKIbGJJg/1/0/900w/canva-green-watercolor-instagram-story-background-MpipxzoqTl0.jpg");
         margin: 5px;
@@ -12,8 +15,9 @@ body{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: 500px 1700px;
+        background-size: 100% 100%;
         background-attachment: scroll;
+        font-size: 20px;
     }
 .title {
     position: fixed;
@@ -67,27 +71,38 @@ body{
     border-radius: 12px;
     background-color:#9AD0C2;
     margin-bottom: 25px;
-    height: 200px;
+    height: 240px;
     transition: transform 0.7s ease-in-out;
-    color: black;
+    color: #00004d;
 }
 .containers{
     font-family: 'Lucida Handwriting';
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
     text-align: center;
     font-weight:700;
+    gap: 20px;
 }
 .container:hover{
     background-color: white;
-    color:black; 
+    color:#00004d; 
     transform: scale(1.05);
     box-shadow: 5px 5px 5px rgb(76, 73, 73);
+    .sol{
+        color: #00004d;
+    }
 }
 .sol{
-    color:black
+    color:#9AD0C2
+}
+.end{
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    color: #00004d;
 }
 .bottom-section {
     background-color:#9AD0C2;
