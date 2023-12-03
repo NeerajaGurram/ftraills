@@ -1,0 +1,133 @@
+body{
+    margin: 5px;
+    margin-right: 5px;
+    padding: 0;
+    font-family: 'Lucida Calligraphy';
+    font-weight:700;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    background-image: url("https://github.com/roshaneleshaddai/freshers/blob/main/Beige%20And%20Gold%20Floral%20Wedding%20Invitation.png?raw=true");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 414px 1800px;
+}
+.title {
+    position: fixed;
+    font-family: 'Lucida Handwriting';
+    /*background-color:rgb(48, 5, 70);*/
+    background-color: #00004d;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 99.2%;
+    z-index: 1000;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.coming-soon-container {
+    text-align: center;
+    font-family: 'Lucida Calligraphy';
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    font-family: 'Lucida Calligraphy';
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: 'Lucida Calligraphy';
+    font-weight:700;
+}
+
+.countdown-box {
+    margin: 0 3px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #00004d;
+    border-radius: 15px;
+}
+.reel{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.container{
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    border: 2px solid #00004d;
+    border-radius: 12px;
+    background-color:#00004d;
+    margin-bottom: 25px;
+    height: 200px;
+    transition: transform 0.7s ease-in-out;
+    color: white;
+}
+.containers{
+    font-family: 'Lucida Handwriting';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:700;
+}
+.container:hover{
+    background-color: white;
+    color:#00004d; 
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgb(76, 73, 73);
+}
+.sol{
+    color: #00004d;
+}
+.bottom-section {
+    /*background-color:#00004d;*/
+    color:#00004d;
+    padding: 40px 10px;
+    text-align: center;
+    width:100%;
+    /*border: 1px solid #00004d;*/
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Calligraphy';
+    font-weight:700;
+  }
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+}
+
+.contact-info {
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+  /* Style for the social icons */
+.social-icons {
+    margin-top: 20px;
+  }
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #00004d;
+    text-decoration: none;
+  }
+.social-icons a:hover {
+    background-color: #00004d; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border: 2px solid #00004d;
+    border-radius: 10px;
+  }  
