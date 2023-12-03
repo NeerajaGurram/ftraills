@@ -23,12 +23,12 @@ body{
     position: fixed;
     font-family: 'Lucida Handwriting';
     /*background-color:rgb(48, 5, 70);*/
-    background-color: rgba(198, 131, 215, 1);
+    background-color: #9D44C0;
     border-radius: 10px;
     overflow: hidden;
     width: 99.2%;
     z-index: 1000;
-    color: #00004d;
+    color: white;
     text-align: center;
     font-weight: 700;
 }
@@ -67,13 +67,13 @@ body{
     text-align: center;
     cursor: pointer;
     width: 200px;
-    border: 2px solid #C683D7;
+    border: 2px solid #9D44C0;
     border-radius: 12px;
-    background-color:#C683D7;
+    background-color:#9D44C0;
     margin-bottom: 25px;
     height: 240px;
     transition: transform 0.7s ease-in-out;
-    color: #00004d;
+    color: white;
 }
 .containers{
     font-family: 'Lucida Handwriting';
@@ -97,7 +97,7 @@ body{
     }
 }
 .sol{
-    color:#C683D7
+    color:#9D44C0
 }
 .end{
     text-align: center;
@@ -105,7 +105,7 @@ body{
     color: #00004d;
 }
 .bottom-section {
-    background-color:#C683D7;
+    background-color:#9D44C0;
     color:#00004d;
     padding: 40px 10px;
     text-align: center;
@@ -114,7 +114,8 @@ body{
     align-items: center;
     font-family: 'Lucida Calligraphy';
     font-weight:700;
-    background: rgba(198, 131, 215, 0.5);
+    background: rgba(157, 68, 192, 0.5);
+    ;
 }
 
 .contact-details {
