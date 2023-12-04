@@ -150,3 +150,7 @@ body{
     border: 2px solid #00004d;
     border-radius: 10px;
 }  
+.mirror-emoji {
+    display: inline-block;
+    transform: scaleX(-1);
+  }
