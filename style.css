@@ -32,6 +32,9 @@ body{
     color: white;
     text-align: center;
     font-weight: 700;
+    .it{
+        color: #F9F5F6; 
+    }
 }
 .coming-soon-container {
     text-align: center;
@@ -153,4 +156,4 @@ body{
 .mirror-emoji {
     display: inline-block;
     transform: scaleX(-1);
-  }
+}
