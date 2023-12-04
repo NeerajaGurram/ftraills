@@ -4,6 +4,8 @@
 }
 body{
         background-image: url("https://i.pinimg.com/564x/02/99/97/029997c9a62319c98d9ad47d31499a2d.jpg");
+        background-image: url("https://i.pinimg.com/originals/f8/dd/55/f8dd5519bdb9cc8c4ef16391619e589b.jpg");
+        background-image: url("https://i.pinimg.com/originals/67/d7/5d/67d75d47d3ce2c88c36f9236acad4483.jpg");
         margin: 5px;
         margin-right: 5px;
         padding: 0;
@@ -71,7 +73,7 @@ body{
     border-radius: 12px;
     background-color:#B0578D;
     margin-bottom: 25px;
-    height: 240px;
+    height: 200px;
     transition: transform 0.7s ease-in-out;
     color: white;
 }
